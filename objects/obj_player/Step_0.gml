@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 if keyboard_check(vk_right) {
-	x = clamp(x + 4, sprite_xoffset, room_width - sprite_xoffset)
+	//x = clamp(x + 4, sprite_xoffset, room_width - sprite_xoffset)
 	heading = Heading.Right
 }
 if keyboard_check(vk_left) {
-	x = clamp(x - 4, sprite_xoffset, room_width - sprite_xoffset)
+	//x = clamp(x - 4, sprite_xoffset, room_width - sprite_xoffset)
 	heading = Heading.Left
 }
 if keyboard_check(vk_up) {
