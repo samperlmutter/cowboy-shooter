@@ -1,13 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"spr_player90","path":"sprites/spr_player90/spr_player90.yy",},"order":3,},
-    {"id":{"name":"spr_player135","path":"sprites/spr_player135/spr_player135.yy",},"order":7,},
+    {"id":{"name":"spr_player0","path":"sprites/spr_player0/spr_player0.yy",},"order":3,},
+    {"id":{"name":"spr_player315","path":"sprites/spr_player315/spr_player315.yy",},"order":7,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
-    {"id":{"name":"spr_player0","path":"sprites/spr_player0/spr_player0.yy",},"order":5,},
+    {"id":{"name":"spr_player90","path":"sprites/spr_player90/spr_player90.yy",},"order":5,},
     {"id":{"name":"spr_player45","path":"sprites/spr_player45/spr_player45.yy",},"order":8,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
-    {"id":{"name":"spr_player180","path":"sprites/spr_player180/spr_player180.yy",},"order":6,},
+    {"id":{"name":"spr_player270","path":"sprites/spr_player270/spr_player270.yy",},"order":6,},
     {"id":{"name":"obj_train_base","path":"objects/obj_train_base/obj_train_base.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_tempSand","path":"sprites/spr_tempSand/spr_tempSand.yy",},"order":2,},
@@ -53,7 +53,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "Lonesome Rider",
