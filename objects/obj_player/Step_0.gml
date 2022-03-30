@@ -74,6 +74,6 @@ if !isShooting {
 // shoot bullet
 else {
 	if image_index = 3 {
-		instance_create_layer(x, y, "Instances", obj_bullet).heading = heading
+		instance_create_layer(bulletX, bulletY, "Instances", obj_bullet).heading = heading
 	}
 }

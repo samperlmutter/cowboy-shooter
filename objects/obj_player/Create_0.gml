@@ -13,3 +13,5 @@ enum Heading {
 
 heading = Heading.Right
 isShooting = false
+bulletX = x
+bulletY = y
