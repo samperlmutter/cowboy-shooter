@@ -16,7 +16,7 @@
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
-    {"id":{"name":"spr_PlayerShoot90","path":"sprites/spr_PlayerShoot90/spr_PlayerShoot90.yy",},"order":13,},
+    {"id":{"name":"spr_playerShoot90","path":"sprites/spr_playerShoot90/spr_playerShoot90.yy",},"order":13,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"spr_enemyCactusShoot90","path":"sprites/spr_enemyCactusShoot90/spr_enemyCactusShoot90.yy",},"order":22,},
     {"id":{"name":"spr_player270","path":"sprites/spr_player270/spr_player270.yy",},"order":6,},
@@ -69,7 +69,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "Lonesome Rider",

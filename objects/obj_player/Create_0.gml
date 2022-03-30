@@ -12,3 +12,4 @@ enum Heading {
 }
 
 heading = Heading.Right
+isShooting = false
