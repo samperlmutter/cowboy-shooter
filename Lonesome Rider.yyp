@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_enemyCoffinAttack90","path":"sprites/spr_enemyCoffinAttack90/spr_enemyCoffinAttack90.yy",},"order":19,},
+    {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"order":5,},
     {"id":{"name":"spr_playerShoot270","path":"sprites/spr_playerShoot270/spr_playerShoot270.yy",},"order":10,},
     {"id":{"name":"spr_player0","path":"sprites/spr_player0/spr_player0.yy",},"order":3,},
     {"id":{"name":"spr_enemyCoffinAttack0","path":"sprites/spr_enemyCoffinAttack0/spr_enemyCoffinAttack0.yy",},"order":15,},
@@ -13,6 +14,7 @@
     {"id":{"name":"spr_playerShoot0","path":"sprites/spr_playerShoot0/spr_playerShoot0.yy",},"order":9,},
     {"id":{"name":"spr_player90","path":"sprites/spr_player90/spr_player90.yy",},"order":5,},
     {"id":{"name":"spr_player45","path":"sprites/spr_player45/spr_player45.yy",},"order":8,},
+    {"id":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"order":4,},
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
