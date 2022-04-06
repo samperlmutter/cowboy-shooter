@@ -16,6 +16,7 @@
     {"id":{"name":"spr_player90","path":"sprites/spr_player90/spr_player90.yy",},"order":5,},
     {"id":{"name":"spr_player45","path":"sprites/spr_player45/spr_player45.yy",},"order":8,},
     {"id":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"order":4,},
+    {"id":{"name":"spr_train_base27","path":"sprites/spr_train_base27/spr_train_base27.yy",},"order":27,},
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
@@ -24,6 +25,7 @@
     {"id":{"name":"spr_enemyCactusShoot90","path":"sprites/spr_enemyCactusShoot90/spr_enemyCactusShoot90.yy",},"order":22,},
     {"id":{"name":"spr_player270","path":"sprites/spr_player270/spr_player270.yy",},"order":6,},
     {"id":{"name":"spr_enemyCactus0","path":"sprites/spr_enemyCactus0/spr_enemyCactus0.yy",},"order":20,},
+    {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},"order":1,},
     {"id":{"name":"obj_train_base","path":"objects/obj_train_base/obj_train_base.yy",},"order":3,},
     {"id":{"name":"spr_enemyCactusShoot270","path":"sprites/spr_enemyCactusShoot270/spr_enemyCactusShoot270.yy",},"order":25,},
     {"id":{"name":"spr_enemyCoffin0","path":"sprites/spr_enemyCoffin0/spr_enemyCoffin0.yy",},"order":14,},
@@ -47,6 +49,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
