@@ -8,7 +8,8 @@ enum Heading {
 	UpLeft,
 	UpRight,
 	DownLeft,
-	DownRight
+	DownRight,
+	Idle
 }
 
-heading = Heading.Right
+heading = Heading.Idle
