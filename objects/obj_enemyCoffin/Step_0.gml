@@ -19,3 +19,14 @@
 			image_xscale = abs(image_xscale)
 			break
 	}
+	
+if (distance_to_object(obj_player) < 200)
+{
+direction = point_direction(x,y,obj_player.x,obj_player.y)
+speed = 3
+	if (Heading.Up)
+	{
+		sprite_index = spr_enemyCoffin0
+		image_xscale = abs(image_xscale)	
+	}
+}
