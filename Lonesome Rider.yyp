@@ -16,6 +16,7 @@
     {"id":{"name":"spr_player90","path":"sprites/spr_player90/spr_player90.yy",},"order":5,},
     {"id":{"name":"spr_player45","path":"sprites/spr_player45/spr_player45.yy",},"order":8,},
     {"id":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"order":4,},
+    {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":28,},
     {"id":{"name":"spr_train_base27","path":"sprites/spr_train_base27/spr_train_base27.yy",},"order":27,},
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
