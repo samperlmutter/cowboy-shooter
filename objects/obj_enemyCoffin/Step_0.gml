@@ -3,25 +3,30 @@
 
 if (distance_to_object(obj_player) < 200)
 {
-speed = 3
+speed = 1
 direction = point_direction(x,y,obj_player.x,obj_player.y)
-}
-switch (heading) 
-	{
-		case Heading.Right:
-			sprite_index = spr_enemyCoffin0
-			image_xscale = abs(image_xscale)
-			break
-		case Heading.Left:
-			sprite_index = spr_enemyCoffin0
-			image_xscale = -abs(image_xscale)
-			break
-		case Heading.Up:
-			sprite_index =spr_enemyCoffin90
-			image_xscale = abs(image_xscale)
-			break
-		case Heading.Down:
-			sprite_index = spr_enemyCoffin90
-			image_xscale = abs(image_xscale)
-			break
+	if(obj_player.x>x){
+		heading=Heading.Right
+	}else{
+		heading=Heading.Left	
+	}
+	switch (heading) 
+		{
+			case Heading.Right:
+				sprite_index = spr_enemyCoffin0
+				image_xscale = abs(image_xscale)
+				break
+			case Heading.Left:
+				sprite_index = spr_enemyCoffin0
+				image_xscale = -abs(image_xscale)
+				break
+			case Heading.Up:
+				sprite_index =spr_enemyCoffin90
+				image_xscale = abs(image_xscale)
+				break
+			case Heading.Down:
+				sprite_index = spr_enemyCoffin90
+				image_xscale = abs(image_xscale)
+				break
+		}
 	}
