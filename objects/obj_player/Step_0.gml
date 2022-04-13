@@ -77,3 +77,14 @@ else {
 		instance_create_layer(bulletX, bulletY, "Instances", obj_bullet).heading = heading
 	}
 }
+
+if (x > 1250)
+{
+	x = x - 4
+	obj_train_base.x = obj_train_base.x + 4
+}
+if (x < 300)
+{
+	x = x + 4
+	obj_train_base.x = obj_train_base.x - 4
+}
