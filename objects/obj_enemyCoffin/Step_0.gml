@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (distance_to_object(obj_player) < 200)
+if (distance_to_object(obj_player) < 400)
 {
-speed = 1
-direction = point_direction(x,y,obj_player.x,obj_player.y)
+	speed = 1
+	direction = point_direction(x,y,obj_player.x,obj_player.y)
+	
 	if(obj_player.x>x){
 		heading=Heading.Right
 	}else{
@@ -29,4 +30,10 @@ direction = point_direction(x,y,obj_player.x,obj_player.y)
 				image_xscale = abs(image_xscale)
 				break
 		}
-	}
+}
+else
+{
+	image_index = 0
+	speed = 0
+	direction = 0
+}
