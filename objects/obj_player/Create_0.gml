@@ -6,5 +6,4 @@ isShooting = false
 bulletX = x
 bulletY = y
 
-hp = 100
 points = 0
