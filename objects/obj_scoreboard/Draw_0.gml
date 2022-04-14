@@ -8,3 +8,7 @@ if instance_exists(obj_player) then
 if(win == true){
 	draw_text(room_width / 3, room_height / 2, "You defeated all enemies! Press R to restart.")
 }
+
+if(lose == true){
+	draw_text(room_width / 3, room_height / 2, "You died... Press R to restart.")
+}
