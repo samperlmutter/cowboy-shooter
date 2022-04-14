@@ -1,0 +1,10 @@
+Train Car Sprite from [24-Bit] Top-Down Western and Pirate Tileset! by Karnificial
+https://karnificial.itch.io/western-or-pirate-tileset
+
+Player/Enemy Sprites, Background Sprite, and Music from Generic OLDWEST Pack by Estudio Vaca Roxa
+https://bakudas.itch.io/generic-oldwest-pack
+Licensed under Creative Commons Zero v1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Train Track Sprite by Donald Robinson (2022)
+
