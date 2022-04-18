@@ -1,9 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
 
 if (distance_to_object(obj_player) < 500)
 {
-	speed = 1
+	speed = 2
 	direction = point_direction(x,y,obj_player.x,obj_player.y)
 	
 	// TODO: change heading based on angle to player
@@ -16,19 +15,19 @@ if (distance_to_object(obj_player) < 500)
 	switch (heading) 
 		{
 			case Heading.Right:
-				sprite_index = spr_enemyCoffin0
+				sprite_index = spr_enemyCactus0
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Left:
-				sprite_index = spr_enemyCoffin0
+				sprite_index = spr_enemyCactus0
 				image_xscale = -abs(image_xscale)
 				break
 			case Heading.Up:
-				sprite_index =spr_enemyCoffin90
+				sprite_index =spr_enemyCactus90
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCoffin90
+				sprite_index = spr_enemyCactus90
 				image_xscale = abs(image_xscale)
 				break
 		}
@@ -40,32 +39,34 @@ else
 	direction = 0
 }
 
-if(distance_to_object(obj_player) <= 140)
+if(distance_to_object(obj_player) <= 200)
 {
+	speed = 0
+	
 	e_x = 0
 	e_y = 0
 	switch (heading)
 		{
 			case Heading.Right:
-				sprite_index = spr_enemyCoffinAttack0
+				sprite_index = spr_enemyCactusShoot0
 				image_xscale = abs(image_xscale)
 				e_x = x + sprite_xoffset
 				e_y = y
 				break
 			case Heading.Left:
-				sprite_index = spr_enemyCoffinAttack0
+				sprite_index = spr_enemyCactusShoot0
 				image_xscale = -abs(image_xscale)
 				e_x = x - sprite_xoffset
 				e_y = y
 				break
 			case Heading.Up:
-				sprite_index =spr_enemyCoffinAttack90
+				sprite_index =spr_enemyCactusShoot90
 				image_xscale = abs(image_xscale)
 				e_x = x
 				e_y = y - sprite_xoffset
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCoffinAttack270
+				sprite_index = spr_enemyCactusShoot270
 				image_xscale = abs(image_xscale)
 				e_x = x
 				e_y = y + sprite_xoffset
