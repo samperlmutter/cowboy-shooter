@@ -1,8 +1,10 @@
 /// @description Insert description here
-if(obj_player.points > 0){
-	win = true
-}
+if object_exists(obj_player) {
+	if(!object_exists(obj_enemyCactus and !object_exists(obj_enemyCoffin))){
+		win = true
+	}
 
-if(obj_player.hp <= 0){
-	lose = true
+	if(obj_player.hp <= 0){
+		lose = true
+	}
 }

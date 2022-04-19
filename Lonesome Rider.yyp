@@ -29,6 +29,7 @@
     {"id":{"name":"spr_train_base27","path":"sprites/spr_train_base27/spr_train_base27.yy",},"order":27,},
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":8,},
+    {"id":{"name":"scr_shootBullet","path":"scripts/scr_shootBullet/scr_shootBullet.yy",},"order":0,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
     {"id":{"name":"spr_playerShoot90","path":"sprites/spr_playerShoot90/spr_playerShoot90.yy",},"order":13,},
@@ -86,7 +87,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "Lonesome Rider",

@@ -1,19 +1,15 @@
 /// @description Insert description here
 
-if (distance_to_object(obj_player) < 500)
-{
-	speed = 2
-	direction = point_direction(x,y,obj_player.x,obj_player.y)
-	
-	// TODO: change heading based on angle to player
-	
-	if (obj_player.x > x) {
-		heading=Heading.Right
-	} else {
-		heading=Heading.Left	
-	}
-	switch (heading) 
-		{
+
+if (obj_player.x > x) {
+	heading=Heading.Right
+} else {
+	heading=Heading.Left	
+}
+
+if !is_shooting {
+	image_speed = 0
+	switch (heading) {
 			case Heading.Right:
 				sprite_index = spr_enemyCactus0
 				image_xscale = abs(image_xscale)
@@ -30,51 +26,50 @@ if (distance_to_object(obj_player) < 500)
 				sprite_index = spr_enemyCactus90
 				image_xscale = abs(image_xscale)
 				break
-		}
-}
-else
-{
-	image_index = 0
-	speed = 0
-	direction = 0
+	}
 }
 
-if(distance_to_object(obj_player) <= 200)
-{
-	speed = 0
+if distance_to_object(obj_player) <= 500 and can_shoot {
+	is_shooting = true
+	can_shoot = false
+	alarm[0] = 90
+	image_speed = 1
+	image_index = 0
 	
-	e_x = 0
-	e_y = 0
-	switch (heading)
-		{
+	bullet_x = 0
+	bullet_y = 0
+	switch (heading) {
 			case Heading.Right:
 				sprite_index = spr_enemyCactusShoot0
 				image_xscale = abs(image_xscale)
-				e_x = x + sprite_xoffset
-				e_y = y
+				bullet_x = x + 12
+				bullet_y = y + 3
 				break
 			case Heading.Left:
 				sprite_index = spr_enemyCactusShoot0
 				image_xscale = -abs(image_xscale)
-				e_x = x - sprite_xoffset
-				e_y = y
+				bullet_x = x - 12
+				bullet_y = y + 3
 				break
 			case Heading.Up:
 				sprite_index =spr_enemyCactusShoot90
 				image_xscale = abs(image_xscale)
-				e_x = x
-				e_y = y - sprite_xoffset
+				bullet_x = x + 9
+				bullet_y = y - 6
 				break
 			case Heading.Down:
 				sprite_index = spr_enemyCactusShoot270
 				image_xscale = abs(image_xscale)
-				e_x = x
-				e_y = y + sprite_xoffset
+				bullet_x = x - 7
+				bullet_y = y + 7
 				break
 		}
-		inst = instance_place(e_x, e_y, obj_player)
-		if inst != noone and image_index == 4 {
-			inst.hp -= damage
-			show_debug_message(damage)
-		}
+}
+
+if is_shooting and image_index == 6 {
+		scr_shootBullet(self, bullet_x, bullet_y)
+}
+if is_shooting and image_index == 10 {
+	is_shooting = false
+	image_speed = 0
 }
