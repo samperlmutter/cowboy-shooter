@@ -62,7 +62,7 @@
     "spriteId": {"name":"spr_enemyCactusShoot90","path":"sprites/spr_enemyCactusShoot90/spr_enemyCactusShoot90.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
