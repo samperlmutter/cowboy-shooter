@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_enemyCoffinAttack90","path":"sprites/spr_enemyCoffinAttack90/spr_enemyCoffinAttack90.yy",},"order":19,},
+    {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":49,},
     {"id":{"name":"spr_railroad","path":"sprites/spr_railroad/spr_railroad.yy",},"order":26,},
     {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"order":5,},
     {"id":{"name":"spr_playerShoot270","path":"sprites/spr_playerShoot270/spr_playerShoot270.yy",},"order":10,},
