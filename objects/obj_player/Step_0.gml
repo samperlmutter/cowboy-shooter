@@ -74,7 +74,7 @@ if !isShooting {
 // shoot bullet
 else {
 	if image_index = 3 {
-		scr_shootBullet(self, bullet_x, bullet_y)
+		scr_shootBullet(self, bulletX, bulletY)
 	}
 }
 
