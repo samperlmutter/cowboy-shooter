@@ -78,6 +78,16 @@ else {
 	}
 }
 
+if(was_hit) {
+	hit_timer += 1;
+	
+	if(hit_timer > hit_release) {
+		was_hit = false;
+	}
+} else {
+	hit_timer = 0;
+}
+
 /**if (x > 1250)
 {
 	x = x - 4

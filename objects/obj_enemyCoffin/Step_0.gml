@@ -73,6 +73,11 @@ if(distance_to_object(obj_player) <= 140)
 		}
 		inst = instance_place(e_x, e_y, obj_player)
 		if inst != noone and image_index == 4 {
+			if(instance_exists(obj_player)) {
+				if(inst.was_hit == false) {
+					inst.was_hit = true;
+				}
+			}
 			inst.hp -= damage
 		}
 }

@@ -1,6 +1,12 @@
 /// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
+if(other == obj_player) {
+	with(other) {
+		if(was_hit == false) {
+			was_hit = true;
+		}
+	}
+}
+
 if other != creator {
 	if instance_exists(obj_player) and obj_player == creator then
 	{

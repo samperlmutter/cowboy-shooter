@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"spr_enemyCoffinAttack90","path":"sprites/spr_enemyCoffinAttack90/spr_enemyCoffinAttack90.yy",},"order":19,},
+    {"id":{"name":"obj_winScreen","path":"objects/obj_winScreen/obj_winScreen.yy",},"order":14,},
     {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":49,},
+    {"id":{"name":"sh_DamageFlashRed","path":"shaders/sh_DamageFlashRed/sh_DamageFlashRed.yy",},"order":0,},
     {"id":{"name":"spr_railroad","path":"sprites/spr_railroad/spr_railroad.yy",},"order":26,},
     {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"order":5,},
     {"id":{"name":"spr_playerShoot270","path":"sprites/spr_playerShoot270/spr_playerShoot270.yy",},"order":10,},
@@ -14,6 +16,7 @@
     {"id":{"name":"spr_bitmap_font","path":"sprites/spr_bitmap_font/spr_bitmap_font.yy",},"order":31,},
     {"id":{"name":"spr_bedVerticalBlue","path":"sprites/spr_bedVerticalBlue/spr_bedVerticalBlue.yy",},"order":39,},
     {"id":{"name":"spr_largeBowlEmpty","path":"sprites/spr_largeBowlEmpty/spr_largeBowlEmpty.yy",},"order":42,},
+    {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":3,},
     {"id":{"name":"spr_player315","path":"sprites/spr_player315/spr_player315.yy",},"order":7,},
     {"id":{"name":"spr_buildingSet1","path":"sprites/spr_buildingSet1/spr_buildingSet1.yy",},"order":29,},
     {"id":{"name":"spr_enemyCoffin90","path":"sprites/spr_enemyCoffin90/spr_enemyCoffin90.yy",},"order":18,},
@@ -34,6 +37,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"spr_player45","path":"sprites/spr_player45/spr_player45.yy",},"order":8,},
     {"id":{"name":"obj_buildingset1","path":"objects/obj_buildingset1/obj_buildingset1.yy",},"order":7,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
     {"id":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"order":4,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":28,},
     {"id":{"name":"spr_train_base27","path":"sprites/spr_train_base27/spr_train_base27.yy",},"order":27,},
@@ -42,6 +46,8 @@
     {"id":{"name":"scr_shootBullet","path":"scripts/scr_shootBullet/scr_shootBullet.yy",},"order":0,},
     {"id":{"name":"spr_playerShoot45","path":"sprites/spr_playerShoot45/spr_playerShoot45.yy",},"order":12,},
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
+    {"id":{"name":"obj_loseScreen","path":"objects/obj_loseScreen/obj_loseScreen.yy",},"order":13,},
+    {"id":{"name":"spr_playerDeath","path":"sprites/spr_playerDeath/spr_playerDeath.yy",},"order":50,},
     {"id":{"name":"spr_playerShoot90","path":"sprites/spr_playerShoot90/spr_playerShoot90.yy",},"order":13,},
     {"id":{"name":"spr_smallBowlFull","path":"sprites/spr_smallBowlFull/spr_smallBowlFull.yy",},"order":43,},
     {"id":{"name":"spr_smallBowlEmpty","path":"sprites/spr_smallBowlEmpty/spr_smallBowlEmpty.yy",},"order":44,},
@@ -51,6 +57,7 @@
     {"id":{"name":"spr_player270","path":"sprites/spr_player270/spr_player270.yy",},"order":6,},
     {"id":{"name":"spr_enemyCactus0","path":"sprites/spr_enemyCactus0/spr_enemyCactus0.yy",},"order":20,},
     {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},"order":1,},
+    {"id":{"name":"obj_playerDeath","path":"objects/obj_playerDeath/obj_playerDeath.yy",},"order":12,},
     {"id":{"name":"obj_train_base","path":"objects/obj_train_base/obj_train_base.yy",},"order":3,},
     {"id":{"name":"spr_enemyCactusShoot270","path":"sprites/spr_enemyCactusShoot270/spr_enemyCactusShoot270.yy",},"order":25,},
     {"id":{"name":"spr_enemyCoffin0","path":"sprites/spr_enemyCoffin0/spr_enemyCoffin0.yy",},"order":14,},
@@ -80,6 +87,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

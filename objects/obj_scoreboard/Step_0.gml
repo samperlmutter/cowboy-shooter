@@ -4,7 +4,7 @@ if object_exists(obj_player) {
 		win = true
 	}
 
-	if obj_player.hp <= 0 or !object_exists(obj_player){
+	if /**obj_player.hp <= 0 or **/!object_exists(obj_player){
 		lose = true
 	}
 }

@@ -1,7 +1,6 @@
 /// @description Insert description here
-
-
-if (obj_player.x > x) {
+if(instance_exists(obj_player)){
+	if (obj_player.x > x) {
 	heading=Heading.Right
 } else {
 	heading=Heading.Left	
@@ -28,6 +27,8 @@ if !is_shooting {
 				break
 	}
 }
+
+
 
 if distance_to_object(obj_player) <= 500 and can_shoot {
 	is_shooting = true
@@ -73,3 +74,5 @@ if is_shooting and image_index == 10 {
 	is_shooting = false
 	image_speed = 0
 }
+}
+
