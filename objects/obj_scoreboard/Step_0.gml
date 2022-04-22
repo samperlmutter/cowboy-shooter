@@ -8,5 +8,6 @@ if object_exists(obj_player) {
 		lose = true
 	}
 }
-if (obj_player.x > 1000)
-win = true 
+if (object_exists(obj_player)){
+	if (obj_player.x > 1000) win = true 
+}
