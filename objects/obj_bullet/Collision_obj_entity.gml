@@ -1,16 +1,13 @@
 /// @description Insert description here
-if(other == obj_player) {
-	with(other) {
-		if(was_hit == false) {
-			was_hit = true;
-		}
-	}
-}
+
 
 if other != creator {
-	if instance_exists(obj_player) and obj_player == creator then
-	{
-		obj_player.points += 10
+	if other.object_index == obj_player {
+		with(other) {
+			if !was_hit {
+				was_hit = true;
+			}
+		}
 	}
 
 	other.hp -= creator.damage
