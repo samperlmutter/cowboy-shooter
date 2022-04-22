@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyCactus0",
-    "path": "sprites/spr_enemyCactus0/spr_enemyCactus0.yy",
+    "name": "spr_enemyCactus270",
+    "path": "sprites/spr_enemyCactus270/spr_enemyCactus270.yy",
   },
   "solid": false,
   "visible": true,
