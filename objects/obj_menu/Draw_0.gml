@@ -1,6 +1,13 @@
-/// @description Insert description here
+/// @description Code for main menu adapted from Easy Menu System - GameMaker 2 asset pack
+/// Created by Conradical Games; all comments in code below are theirs
+/// https://conradical-games.itch.io/ezmenu
+/// ------------------------------------------------------------------------------------------------
+/// Monogram font created by datagoblin, licensed for use under Creative Commons Zero v1.0 Universal
+/// https://datagoblin.itch.io/monogram
+
+
 // Set default font
-//draw_set_font(cowboyFont);
+draw_set_font(fnt_monogram);
 
 // Loop through the array containing each menu element
 for(i = 0; i < array_length_1d(menu); i++)
@@ -29,4 +36,7 @@ draw_sprite(spr_cursor, -1, x + cursorLevitate - cursWidth/2, y + selectLerp*spa
 
 // Draw game title (at 10% of screen width and height, hence 0.1)
 draw_set_color(titleCol);
-draw_text_transformed(room_width*0.1, room_height*0.1 , gameTitle, titleSize, titleSize,0);
+draw_text_transformed(room_width*0.1, room_height*0.1, gameTitle, titleSize, titleSize,0);
+
+draw_set_color(c_black);
+draw_text_transformed(room_width*0.1, room_height*0.9, "Arrow keys to navigate menu, space to confirm", 0.5, 0.5, 0);

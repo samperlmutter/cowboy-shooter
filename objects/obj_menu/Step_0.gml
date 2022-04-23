@@ -1,4 +1,8 @@
-/// @description Insert description here
+/// @description Code for main menu adapted from Easy Menu System - GameMaker 2 asset pack
+/// Created by Conradical Games; all comments in code below are theirs
+/// https://conradical-games.itch.io/ezmenu
+
+
 // Oscillate the cursor using sin function
 cursorLevitate = dsin(cursorTime);
 
@@ -30,11 +34,13 @@ if(keyboard_check_pressed(confirmButt))
 	if(selected == 1) // Options by default
 	{
 		// Go to instructions room
+		room_goto(rm_instructions)
 	}
 	
 	if(selected == 2) // Stats by default
 	{
 		// Go to credits room
+		room_goto(rm_credits)
 	}
 	
 	if(selected == 3) // Exit by default

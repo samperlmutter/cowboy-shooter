@@ -1,9 +1,13 @@
-/// @description Insert description here
+/// @description Code for main menu adapted from Easy Menu System - GameMaker 2 asset pack
+/// Created by Conradical Games; all comments in code below are theirs
+/// https://conradical-games.itch.io/ezmenu
+
+
 // Menu element names. This will be what is actually drawn
-menu[0] = "PLAY";
-menu[1] = "INSTRUCTIONS";
-menu[2] = "CREDITS";
-menu[3] = "EXIT";
+menu[0] = "Play";
+menu[1] = "Instructions";
+menu[2] = "Credits";
+menu[3] = "Exit";
 
 
 // cursorLevitate will be used to keep a variable that
@@ -27,7 +31,7 @@ lerpAmt = 0.2; // Higher number -> faster cursor (between 0 and 1)
 
 
 // Spacing between each menu element when drawn
-spacing = 16;
+spacing = 50;
 
 
 // Color of the menu element when selected
@@ -41,7 +45,7 @@ titleCol = c_white;
 
 
 // Title of your game
-gameTitle = "LONESOME RIDER";
+gameTitle = "Lonesome Rider";
 
 // Size of the title
 titleSize = 2;
