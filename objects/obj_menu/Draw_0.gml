@@ -39,4 +39,4 @@ draw_set_color(titleCol);
 draw_text_transformed(room_width*0.1, room_height*0.1, gameTitle, titleSize, titleSize,0);
 
 draw_set_color(c_black);
-draw_text_transformed(room_width*0.1, room_height*0.9, "Arrow keys to navigate menu, space to confirm", 0.5, 0.5, 0);
+draw_text_transformed(room_width*0.1, room_height*0.9, "Arrow keys to navigate menu, enter to confirm", 0.5, 0.5, 0);
