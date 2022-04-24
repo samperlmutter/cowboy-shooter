@@ -58,4 +58,4 @@ upButt = vk_up;
 downButt = vk_down;
 
 // Button to confirm menu choice
-confirmButt = vk_space;
+confirmButt = vk_enter;
