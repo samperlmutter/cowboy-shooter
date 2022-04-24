@@ -1,9 +1,16 @@
 /// @description Insert description here
-if(instance_exists(obj_player)){
-	if (obj_player.x > x) {
-	heading=Heading.Right
-} else {
-	heading=Heading.Left	
+if instance_exists(obj_player) {
+	angle = point_direction(x, y, obj_player.x, obj_player.y)
+	show_debug_message(angle)
+	if angle >= 315 or angle <= 45 {
+		heading = Heading.Right
+	} else if angle > 45 and angle <= 135 {
+		heading = Heading.Up
+	} else if angle > 135 and angle <= 225 {
+		heading = Heading.Left
+	} else if angle > 225 and angle < 315 {
+		heading = Heading.Down
+	}
 }
 
 if !is_shooting {
@@ -22,7 +29,7 @@ if !is_shooting {
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCactus90
+				sprite_index = spr_enemyCactus270
 				image_xscale = abs(image_xscale)
 				break
 	}
@@ -55,14 +62,14 @@ if distance_to_object(obj_player) <= 500 and can_shoot {
 			case Heading.Up:
 				sprite_index =spr_enemyCactusShoot90
 				image_xscale = abs(image_xscale)
-				bullet_x = x + 9
-				bullet_y = y - 6
+				bullet_x = x + 36
+				bullet_y = y - 24
 				break
 			case Heading.Down:
 				sprite_index = spr_enemyCactusShoot270
 				image_xscale = abs(image_xscale)
-				bullet_x = x - 7
-				bullet_y = y + 7
+				bullet_x = x - 28
+				bullet_y = y + 28
 				break
 		}
 }
@@ -74,5 +81,5 @@ if is_shooting and image_index == 10 {
 	is_shooting = false
 	image_speed = 0
 }
-}
+
 
