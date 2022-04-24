@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_playerDeath",
-    "path": "sprites/spr_playerDeath/spr_playerDeath.yy",
+    "name": "spr_menu_art",
+    "path": "sprites/spr_menu_art/spr_menu_art.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_death_anim",
-    "path": "objects/obj_death_anim/obj_death_anim.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_playerDeath",
+  "name": "obj_menuArt",
   "tags": [],
   "resourceType": "GMObject",
 }
