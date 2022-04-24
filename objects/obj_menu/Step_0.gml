@@ -48,3 +48,4 @@ if(keyboard_check_pressed(confirmButt))
 		game_end();
 	}
 }
+

@@ -1,9 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"snd_backgound","path":"sounds/snd_backgound/snd_backgound.yy",},"order":0,},
     {"id":{"name":"spr_enemyCoffinAttack90","path":"sprites/spr_enemyCoffinAttack90/spr_enemyCoffinAttack90.yy",},"order":19,},
     {"id":{"name":"obj_winScreen","path":"objects/obj_winScreen/obj_winScreen.yy",},"order":14,},
     {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":49,},
     {"id":{"name":"sh_DamageFlashRed","path":"shaders/sh_DamageFlashRed/sh_DamageFlashRed.yy",},"order":0,},
+    {"id":{"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},"order":53,},
     {"id":{"name":"spr_railroad","path":"sprites/spr_railroad/spr_railroad.yy",},"order":26,},
     {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"order":5,},
     {"id":{"name":"spr_playerShoot270","path":"sprites/spr_playerShoot270/spr_playerShoot270.yy",},"order":10,},
@@ -32,6 +34,7 @@
     {"id":{"name":"spr_playerShoot315","path":"sprites/spr_playerShoot315/spr_playerShoot315.yy",},"order":11,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":4,},
+    {"id":{"name":"snd_menuBeep","path":"sounds/snd_menuBeep/snd_menuBeep.yy",},"order":1,},
     {"id":{"name":"fnt_monogram","path":"fonts/fnt_monogram/fnt_monogram.yy",},"order":0,},
     {"id":{"name":"spr_playerShoot0","path":"sprites/spr_playerShoot0/spr_playerShoot0.yy",},"order":9,},
     {"id":{"name":"spr_tableVertical","path":"sprites/spr_tableVertical/spr_tableVertical.yy",},"order":35,},
@@ -45,6 +48,7 @@
     {"id":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"order":4,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":28,},
     {"id":{"name":"spr_train_base27","path":"sprites/spr_train_base27/spr_train_base27.yy",},"order":27,},
+    {"id":{"name":"obj_roof","path":"objects/obj_roof/obj_roof.yy",},"order":18,},
     {"id":{"name":"spr_enemyCoffin270","path":"sprites/spr_enemyCoffin270/spr_enemyCoffin270.yy",},"order":16,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":8,},
     {"id":{"name":"scr_shootBullet","path":"scripts/scr_shootBullet/scr_shootBullet.yy",},"order":0,},
