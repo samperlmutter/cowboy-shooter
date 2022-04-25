@@ -19,19 +19,19 @@ if !is_shooting {
 	image_speed = 0
 	switch (heading) {
 			case Heading.Right:
-				sprite_index = spr_enemyCactus0
+				sprite_index = spr_boss0
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Left:
-				sprite_index = spr_enemyCactus0
+				sprite_index = spr_boss0
 				image_xscale = -abs(image_xscale)
 				break
 			case Heading.Up:
-				sprite_index =spr_enemyCactus90
+				sprite_index =spr_boss90
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCactus270
+				sprite_index = spr_boss270
 				image_xscale = abs(image_xscale)
 				break
 	}
@@ -50,25 +50,25 @@ if distance_to_object(obj_player) <= 500 and can_shoot {
 	bullet_y = 0
 	switch (heading) {
 			case Heading.Right:
-				sprite_index = spr_enemyCactusShoot0
+				sprite_index = spr_bossAttack0
 				image_xscale = abs(image_xscale)
 				bullet_x = x + 12
 				bullet_y = y + 3
 				break
 			case Heading.Left:
-				sprite_index = spr_enemyCactusShoot0
+				sprite_index = spr_bossAttack0
 				image_xscale = -abs(image_xscale)
 				bullet_x = x - 12
 				bullet_y = y + 3
 				break
 			case Heading.Up:
-				sprite_index =spr_enemyCactusShoot90
+				sprite_index =spr_bossAttack90
 				image_xscale = abs(image_xscale)
 				bullet_x = x + 36
 				bullet_y = y - 24
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCactusShoot270
+				sprite_index = spr_bossAttack270
 				image_xscale = abs(image_xscale)
 				bullet_x = x - 28
 				bullet_y = y + 28
