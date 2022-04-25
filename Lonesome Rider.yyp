@@ -30,6 +30,7 @@
     {"id":{"name":"spr_enemyCoffin90","path":"sprites/spr_enemyCoffin90/spr_enemyCoffin90.yy",},"order":18,},
     {"id":{"name":"obj_bitmap_font","path":"objects/obj_bitmap_font/obj_bitmap_font.yy",},"order":10,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":30,},
+    {"id":{"name":"spr_ammoUI","path":"sprites/spr_ammoUI/spr_ammoUI.yy",},"order":64,},
     {"id":{"name":"spr_chair2","path":"sprites/spr_chair2/spr_chair2.yy",},"order":48,},
     {"id":{"name":"spr_bedVericalRed","path":"sprites/spr_bedVericalRed/spr_bedVericalRed.yy",},"order":37,},
     {"id":{"name":"spr_beerFull","path":"sprites/spr_beerFull/spr_beerFull.yy",},"order":32,},
@@ -143,7 +144,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.2.0.614",
   },
   "resourceVersion": "1.5",
   "name": "Lonesome Rider",
