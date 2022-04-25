@@ -4,6 +4,7 @@
     {"id":{"name":"spr_enemyCoffinAttack90","path":"sprites/spr_enemyCoffinAttack90/spr_enemyCoffinAttack90.yy",},"order":19,},
     {"id":{"name":"obj_winScreen","path":"objects/obj_winScreen/obj_winScreen.yy",},"order":14,},
     {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":49,},
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":20,},
     {"id":{"name":"sh_DamageFlashRed","path":"shaders/sh_DamageFlashRed/sh_DamageFlashRed.yy",},"order":0,},
     {"id":{"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},"order":53,},
     {"id":{"name":"spr_boss90","path":"sprites/spr_boss90/spr_boss90.yy",},"order":60,},
