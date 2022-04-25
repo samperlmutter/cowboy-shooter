@@ -1,7 +1,6 @@
 /// @description Insert description here
 if instance_exists(obj_player) {
 	angle = point_direction(x, y, obj_player.x, obj_player.y)
-	show_debug_message(angle)
 	if angle >= 315 or angle <= 45 {
 		heading = Heading.Right
 	} else if angle > 45 and angle <= 135 {

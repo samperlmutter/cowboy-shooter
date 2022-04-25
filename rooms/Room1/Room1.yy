@@ -121,6 +121,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2334.0,"y":466.0,"resourceVersion":"1.0","name":"inst_395CB1B2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemyCoffin","path":"objects/obj_enemyCoffin/obj_enemyCoffin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2282.0,"y":295.0,"resourceVersion":"1.0","name":"inst_125FC555","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemyCactus","path":"objects/obj_enemyCactus/obj_enemyCactus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2539.0,"y":412.0,"resourceVersion":"1.0","name":"inst_69BBDAD6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5856.0,"y":352.0,"resourceVersion":"1.0","name":"inst_68AA0BBC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_tableVertical","path":"sprites/spr_tableVertical/spr_tableVertical.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1682.0,"y":163.0,"resourceVersion":"1.0","name":"graphic_7FB21278","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -315,6 +316,7 @@
     {"name":"inst_7B94ADE9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2CB1244A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7317C154","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_68AA0BBC","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
