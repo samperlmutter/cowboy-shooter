@@ -80,7 +80,7 @@ if(distance_to_object(obj_player) <= 140)
 				e_y = y + sprite_xoffset
 				break
 		}
-		inst = instance_place(e_x, e_y, obj_player)
+		inst = instance_place(x, y, obj_player)
 		if inst != noone and image_index == 4 {
 			if(instance_exists(obj_player)) {
 				if(inst.was_hit == false) {
