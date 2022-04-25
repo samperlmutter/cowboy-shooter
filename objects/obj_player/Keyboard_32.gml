@@ -1,6 +1,6 @@
 /// @description shoot a bullet
 // You can write your code in this editor
-if !isShooting {
+if !isShooting and ammo > 0 {
 	switch (heading) {
 		case Heading.Right:
 			sprite_index = spr_playerShoot0
@@ -53,4 +53,5 @@ if !isShooting {
 	}
 	image_speed = 1
 	isShooting = true
+	ammo -= 1
 }

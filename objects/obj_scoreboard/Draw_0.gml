@@ -6,5 +6,6 @@ if instance_exists(obj_player) then
 {
 	draw_healthbar(c_x + 8, c_y + 8, c_x + 256, c_y + 32, obj_player.hp, c_black, c_red, c_lime, 0, true, true);
 	draw_text_transformed_color(c_x + 16, c_y + 50, "SCORE: "+string(score), 1.5, 1.5, image_angle, 0, 0, 0, 0, image_alpha);
+	draw_sprite(spr_ammoUI, 12 - obj_player.ammo * 2, c_x + 8, c_y + 80)
 }
 //obj_player.points
