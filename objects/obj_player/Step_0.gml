@@ -1,5 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
+
+x = clamp(x, sprite_width/2, room_width-sprite_width/2);
+y = clamp(y, sprite_height/2, room_height-sprite_height/2);
+
 if !isShooting {
 	if keyboard_check(vk_right) {
 		x = clamp(x + 4, sprite_xoffset, room_width - sprite_xoffset)

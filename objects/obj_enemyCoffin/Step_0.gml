@@ -6,13 +6,22 @@ if (distance_to_object(obj_player) < 600)
 	speed = 1
 	direction = point_direction(x,y,obj_player.x,obj_player.y)
 	
-	// TODO: change heading based on angle to player
-	
-	if (obj_player.x > x) {
-		heading=Heading.Right
-	} else {
-		heading=Heading.Left	
+	//change heading based on angle to player
+	if direction >= 315 or direction <= 45 {
+		heading = Heading.Right
+	} else if direction > 45 and direction <= 135 {
+		heading = Heading.Up
+	} else if direction > 135 and direction <= 225 {
+		heading = Heading.Left
+	} else if direction > 225 and direction < 315 {
+		heading = Heading.Down
 	}
+	
+	//if (obj_player.x > x) {
+	//	heading=Heading.Right
+	//} else {
+	//	heading=Heading.Left	
+	//}
 	switch (heading) 
 		{
 			case Heading.Right:

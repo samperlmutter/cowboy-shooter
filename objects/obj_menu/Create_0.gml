@@ -60,4 +60,4 @@ downButt = vk_down;
 // Button to confirm menu choice
 confirmButt = vk_enter;
 
-audio_play_sound(snd_backgound,5,false)
+if(!audio_is_playing(snd_backgound)) audio_play_sound(snd_backgound,5,true)
