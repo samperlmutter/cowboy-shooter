@@ -6,7 +6,7 @@ isShooting = false
 bulletX = x
 bulletY = y
 
-points = 0
+//points = 0
 
 was_hit = false;
 hit_timer = 0;

@@ -62,6 +62,7 @@
     {"id":{"name":"spr_enemyCoffinAttack270","path":"sprites/spr_enemyCoffinAttack270/spr_enemyCoffinAttack270.yy",},"order":17,},
     {"id":{"name":"obj_loseScreen","path":"objects/obj_loseScreen/obj_loseScreen.yy",},"order":13,},
     {"id":{"name":"spr_playerDeath","path":"sprites/spr_playerDeath/spr_playerDeath.yy",},"order":50,},
+    {"id":{"name":"spr_bulletSheet","path":"sprites/spr_bulletSheet/spr_bulletSheet.yy",},"order":62,},
     {"id":{"name":"spr_playerShoot90","path":"sprites/spr_playerShoot90/spr_playerShoot90.yy",},"order":13,},
     {"id":{"name":"spr_smallBowlFull","path":"sprites/spr_smallBowlFull/spr_smallBowlFull.yy",},"order":43,},
     {"id":{"name":"spr_smallBowlEmpty","path":"sprites/spr_smallBowlEmpty/spr_smallBowlEmpty.yy",},"order":44,},
