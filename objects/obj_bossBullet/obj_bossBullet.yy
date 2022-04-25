@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_boss0",
-    "path": "sprites/spr_boss0/spr_boss0.yy",
+    "name": "spr_bossBullet",
+    "path": "sprites/spr_bossBullet/spr_bossBullet.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyCactus",
-    "path": "objects/obj_enemyCactus/obj_enemyCactus.yy",
+    "name": "obj_bullet",
+    "path": "objects/obj_bullet/obj_bullet.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boss",
+  "name": "obj_bossBullet",
   "tags": [],
   "resourceType": "GMObject",
 }

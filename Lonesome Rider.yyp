@@ -94,6 +94,7 @@
     {"id":{"name":"obj_menuArt","path":"objects/obj_menuArt/obj_menuArt.yy",},"order":19,},
     {"id":{"name":"spr_enemyCactus270","path":"sprites/spr_enemyCactus270/spr_enemyCactus270.yy",},"order":24,},
     {"id":{"name":"spr_train_base","path":"sprites/spr_train_base/spr_train_base.yy",},"order":4,},
+    {"id":{"name":"obj_bossBullet","path":"objects/obj_bossBullet/obj_bossBullet.yy",},"order":21,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
