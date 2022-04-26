@@ -17,11 +17,6 @@ if (distance_to_object(obj_player) < 600)
 		heading = Heading.Down
 	}
 	
-	//if (obj_player.x > x) {
-	//	heading=Heading.Right
-	//} else {
-	//	heading=Heading.Left	
-	//}
 	switch (heading) 
 		{
 			case Heading.Right:
@@ -37,7 +32,7 @@ if (distance_to_object(obj_player) < 600)
 				image_xscale = abs(image_xscale)
 				break
 			case Heading.Down:
-				sprite_index = spr_enemyCoffin90
+				sprite_index = spr_enemyCoffin270
 				image_xscale = abs(image_xscale)
 				break
 		}
