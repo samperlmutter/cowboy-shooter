@@ -91,21 +91,6 @@ if(was_hit) {
 	hit_timer = 0;
 }
 
-/**if (x > 1250)
-{
-	x = x - 4
-	obj_train_base.x = obj_train_base.x + 4
-	if(instance_exists(obj_enemyCoffin)) {
-		obj_enemyCoffin.x = obj_enemyCoffin.x - 4
-	}
-	
+if x > 6560 {
+	room_goto_next()
 }
-if (x < 300)
-{
-	x = x + 4
-	obj_train_base.x = obj_train_base.x - 4
-	if(instance_exists(obj_enemyCoffin)) {
-		obj_enemyCoffin.x = obj_enemyCoffin.x + 4
-	}
-	
-}**/
