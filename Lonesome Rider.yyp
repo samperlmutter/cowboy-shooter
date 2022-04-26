@@ -79,6 +79,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"spr_enemyCactusShoot90","path":"sprites/spr_enemyCactusShoot90/spr_enemyCactusShoot90.yy",},"order":22,},
     {"id":{"name":"spr_player270","path":"sprites/spr_player270/spr_player270.yy",},"order":6,},
+    {"id":{"name":"snd_reload","path":"sounds/snd_reload/snd_reload.yy",},"order":5,},
     {"id":{"name":"spr_boss0","path":"sprites/spr_boss0/spr_boss0.yy",},"order":59,},
     {"id":{"name":"spr_enemyCactus0","path":"sprites/spr_enemyCactus0/spr_enemyCactus0.yy",},"order":20,},
     {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},"order":1,},
