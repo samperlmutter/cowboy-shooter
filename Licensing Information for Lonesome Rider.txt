@@ -1,10 +1,38 @@
-Train Car Sprite from [24-Bit] Top-Down Western and Pirate Tileset! by Karnificial
-https://karnificial.itch.io/western-or-pirate-tileset
+LICENSING INFORMATION FOR LONESOME RIDER:
 
-Player/Enemy Sprites, Background Sprite, and Music from Generic OLDWEST Pack by Estudio Vaca Roxa
-https://bakudas.itch.io/generic-oldwest-pack
+Crates, food items, beds, and tables used in train cars from [24-Bit] Top-Down Western and Pirate Tileset! by Karnificial
+Train Car Sprite created using various modified assets
+From itch.io - https://karnificial.itch.io/western-or-pirate-tileset
+
+Character sprites, cowboy font, and bullet sprite from Generic OLDWEST Pack by Estudio Vaca Roxa
+From itch.io - https://bakudas.itch.io/generic-oldwest-pack
 Licensed under Creative Commons Zero v1.0 Universal
 https://creativecommons.org/publicdomain/zero/1.0/
 
-Train Track Sprite by Donald Robinson (2022)
+Train Track Sprite, revolver ammo UI element, and train engine sprite made by Donald Robinson (2022)
+
+Background tileset from "Grass Tileset 16x16" by Bonsaiheldin licensed CC BY-SA 3.0: https://opengameart.org/content/grass-tileset-16x16
+
+Menu and end screen background image from "Paper" by darkwood licensed CC BY 3.0: https://opengameart.org/content/paper
+
+Menu UI adapted from Easy Menu System - Game Maker Studio 2 game asset by Conradical Games
+From itch.io - https://conradical-games.itch.io/ezmenu
+
+Main menu font "monogram" made by datagoblin
+From itch.io - https://datagoblin.itch.io/monogram
+Licensed under Creative Commons Zero v1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Boss fire bullet from Fire Pixel Bullet 16x16 Free
+From itch.io - https://blackdragon1727.itch.io/fire-pixel-bullet-16x16
+
+Boss fire bullet sound effect: "Fireball" by Julien Matthey licensed CC0: https://opengameart.org/content/fireball-1
+
+Background music: Wild West by ZitronSound (CC BY-ND 3.0 - BandCamp)
+https://zitronsound.bandcamp.com/track/wild-west
+
+Coffin enemy attack sound effect: Whoosh by qubodup (CC0 - Freesound.org)
+https://freesound.org/people/qubodup/sounds/60013/
+
+Reload sound effect from "Gun Reload Sounds" by SpringySpringo licensed CC0: https://opengameart.org/content/gun-reload-sounds
 

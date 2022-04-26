@@ -83,8 +83,6 @@ if(distance_to_object(obj_player) <= 140)
 		
 		if(!audio_is_playing(snd_coffinAttack)) {
 			audio_play_sound(snd_coffinAttack,1,false)
-		} else {
-			audio_stop_sound(snd_coffinAttack)
 		}
 		
 		inst = instance_place(x, y, obj_player)
