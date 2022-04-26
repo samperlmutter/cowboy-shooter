@@ -1,2 +1,2 @@
-/// @description Cheat code; move to the boss level
+/// @description Insert description here
 room_goto_next()
