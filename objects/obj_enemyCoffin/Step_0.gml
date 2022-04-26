@@ -80,6 +80,7 @@ if(distance_to_object(obj_player) <= 140)
 				e_y = y + sprite_xoffset
 				break
 		}
+		audio_play_sound(snd_coffinAttack,1,false)
 		inst = instance_place(x, y, obj_player)
 		if inst != noone and image_index == 4 {
 			if(instance_exists(obj_player)) {

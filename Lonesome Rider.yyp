@@ -23,6 +23,7 @@
     {"id":{"name":"snd_fire","path":"sounds/snd_fire/snd_fire.yy",},"order":3,},
     {"id":{"name":"spr_bitmap_font","path":"sprites/spr_bitmap_font/spr_bitmap_font.yy",},"order":31,},
     {"id":{"name":"spr_bedVerticalBlue","path":"sprites/spr_bedVerticalBlue/spr_bedVerticalBlue.yy",},"order":39,},
+    {"id":{"name":"snd_coffinAttack","path":"sounds/snd_coffinAttack/snd_coffinAttack.yy",},"order":4,},
     {"id":{"name":"spr_largeBowlEmpty","path":"sprites/spr_largeBowlEmpty/spr_largeBowlEmpty.yy",},"order":42,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":3,},
     {"id":{"name":"spr_jackolope","path":"sprites/spr_jackolope/spr_jackolope.yy",},"order":66,},
