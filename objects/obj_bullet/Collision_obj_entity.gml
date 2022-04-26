@@ -1,5 +1,4 @@
-/// @description Insert description here
-
+/// @description Bullet collision
 
 if other != creator {
 	if other.object_index == obj_player {

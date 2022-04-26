@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Shoot bullet in specified direction
+
 switch heading {
 	case Heading.Left:
 		image_angle = 180
