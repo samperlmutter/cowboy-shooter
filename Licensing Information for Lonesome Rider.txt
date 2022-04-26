@@ -36,3 +36,4 @@ https://freesound.org/people/qubodup/sounds/60013/
 
 Reload sound effect from "Gun Reload Sounds" by SpringySpringo licensed CC0: https://opengameart.org/content/gun-reload-sounds
 
+Damage shader adapted from "Shaders in GameMaker Studio 2 - Damage Shader" tutorial by GameMaker Casts: https://www.youtube.com/watch?v=V2mt_Oxj87c
