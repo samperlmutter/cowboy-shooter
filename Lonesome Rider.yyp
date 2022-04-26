@@ -20,6 +20,7 @@
     {"id":{"name":"spr_enemyCactusShoot0","path":"sprites/spr_enemyCactusShoot0/spr_enemyCactusShoot0.yy",},"order":23,},
     {"id":{"name":"spr_boss270","path":"sprites/spr_boss270/spr_boss270.yy",},"order":55,},
     {"id":{"name":"spr_largeBowlFull","path":"sprites/spr_largeBowlFull/spr_largeBowlFull.yy",},"order":41,},
+    {"id":{"name":"snd_fire","path":"sounds/snd_fire/snd_fire.yy",},"order":3,},
     {"id":{"name":"spr_bitmap_font","path":"sprites/spr_bitmap_font/spr_bitmap_font.yy",},"order":31,},
     {"id":{"name":"spr_bedVerticalBlue","path":"sprites/spr_bedVerticalBlue/spr_bedVerticalBlue.yy",},"order":39,},
     {"id":{"name":"spr_largeBowlEmpty","path":"sprites/spr_largeBowlEmpty/spr_largeBowlEmpty.yy",},"order":42,},
