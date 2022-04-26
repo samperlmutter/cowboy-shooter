@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Draw GUI
 c_x = camera_get_view_x(view_camera[0])
 c_y = camera_get_view_y(view_camera[0])
 
@@ -8,4 +8,3 @@ if instance_exists(obj_player) then
 	draw_text_transformed_color(c_x + 16, c_y + 50, "SCORE: "+string(score), 1.5, 1.5, image_angle, 0, 0, 0, 0, image_alpha);
 	draw_sprite(spr_ammoUI, 12 - obj_player.ammo * 2, c_x + 8, c_y + 80)
 }
-//obj_player.points

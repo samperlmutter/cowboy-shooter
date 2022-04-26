@@ -91,6 +91,6 @@ if(was_hit) {
 	hit_timer = 0;
 }
 
-if x > 6560 {
+if x > 6560 and room == Room1 {
 	room_goto_next()
 }
